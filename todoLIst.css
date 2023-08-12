@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(146, 100, 178, 0.618);
+}
+.mainpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.todo_page input{
+  width: 300px;
+  height: 35px;
+}
+.todo_page button{
+  width: 50px;
+  height: 35px;
+}
+::placeholder{
+  padding-left: 20px;
+  font-size: 20px;
+}
+.listItems{
+  border: 2px solid yellow;
+  display: flex;
+  width: 50rem;
+  height: 20rem;
+  margin-top: 100px;
+}
+.items{
+  min-width: 40rem;
+  height: 37px;
+  background-color: white;
+}
+.listItems button{
+  width: 50px;
+  height: 37px;
+}
+.deleteAll{
+  width: 100px;
+  height: 50px;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+}
+ul li{
+  margin-top: 10px;
+}
